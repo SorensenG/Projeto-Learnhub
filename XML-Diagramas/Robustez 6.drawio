@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.2">
+  <diagram name="Página-1" id="A1XricTwvR2LtzFUGfRS">
+    <mxGraphModel dx="2316" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="thF2VDcHaVG7FaZjGytK-1" value="Estudante" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="30" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="thF2VDcHaVG7FaZjGytK-5" value="Tela principal" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="40" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="thF2VDcHaVG7FaZjGytK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="thF2VDcHaVG7FaZjGytK-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="203.9375" y="79.63999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thF2VDcHaVG7FaZjGytK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=0.495;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="thF2VDcHaVG7FaZjGytK-1" target="thF2VDcHaVG7FaZjGytK-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="thF2VDcHaVG7FaZjGytK-37" value="Acessar tela de duvidas" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="30" width="78.75" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="thF2VDcHaVG7FaZjGytK-38" value="Tela de duvidas" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="160" width="140" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="thF2VDcHaVG7FaZjGytK-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.997;entryY=0.356;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="thF2VDcHaVG7FaZjGytK-37" target="thF2VDcHaVG7FaZjGytK-38" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="250" as="sourcePoint" />
+            <mxPoint x="330" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.432;exitY=0.055;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="thF2VDcHaVG7FaZjGytK-38" target="thF2VDcHaVG7FaZjGytK-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="240" as="sourcePoint" />
+            <mxPoint y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-42" value="Enviar mensagem de duvida" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="87.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.034;entryY=0.458;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="thF2VDcHaVG7FaZjGytK-38" target="yQ8m5PVfVtzuY-FzAJRZ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-46" value="Verificar professor online para tirar duvida&amp;nbsp;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="100" width="96.25" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.062;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQ8m5PVfVtzuY-FzAJRZ-42" target="yQ8m5PVfVtzuY-FzAJRZ-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-48" value="Professores online" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQ8m5PVfVtzuY-FzAJRZ-46" target="yQ8m5PVfVtzuY-FzAJRZ-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-50" value="Mensagem de que existe um professor online e ele já ira responder&amp;nbsp;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="287.43" width="116" height="132.57" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=0.091;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQ8m5PVfVtzuY-FzAJRZ-46" target="yQ8m5PVfVtzuY-FzAJRZ-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="255" />
+              <mxPoint x="408" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-54" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;caso haja professor online&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQ8m5PVfVtzuY-FzAJRZ-51">
+          <mxGeometry x="-0.0281" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-55" value="Chat" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-20" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.662;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQ8m5PVfVtzuY-FzAJRZ-42" target="yQ8m5PVfVtzuY-FzAJRZ-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="190" as="sourcePoint" />
+            <mxPoint x="430" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.96;entryY=0.775;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQ8m5PVfVtzuY-FzAJRZ-50" target="thF2VDcHaVG7FaZjGytK-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="290" as="sourcePoint" />
+            <mxPoint x="340" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-59" value="Mensagem de que não há professor online no momento e que a mensagem será respondida assim que possível&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="430" width="131.25" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQ8m5PVfVtzuY-FzAJRZ-46" target="yQ8m5PVfVtzuY-FzAJRZ-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="320" />
+              <mxPoint x="556" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-61" value="caso não haja professor online" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQ8m5PVfVtzuY-FzAJRZ-60">
+          <mxGeometry x="0.051" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQ8m5PVfVtzuY-FzAJRZ-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.764;entryY=0.954;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQ8m5PVfVtzuY-FzAJRZ-59" target="thF2VDcHaVG7FaZjGytK-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="430" as="sourcePoint" />
+            <mxPoint x="360" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
