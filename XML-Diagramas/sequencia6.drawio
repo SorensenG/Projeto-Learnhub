@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Página-1" id="fEXoRQuii5otYf2MH7eh">
+    <mxGraphModel dx="880" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-1" value="Estudante" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-3" value="Tela Principal" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="10" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="150" width="20" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SjVy-5ffpDYby1XpSnQS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35" y="140" as="sourcePoint" />
+            <mxPoint x="35" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="35" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="20" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.557;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SjVy-5ffpDYby1XpSnQS-6" target="SjVy-5ffpDYby1XpSnQS-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="140" as="sourcePoint" />
+            <mxPoint x="140" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-10" value="Controle de Duvidas" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SjVy-5ffpDYby1XpSnQS-12" target="SjVy-5ffpDYby1XpSnQS-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="130" as="sourcePoint" />
+            <mxPoint x="250" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="20" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-14" value="Tela de Duvidas" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="10" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.557;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="SjVy-5ffpDYby1XpSnQS-16" target="SjVy-5ffpDYby1XpSnQS-14" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="130" as="sourcePoint" />
+            <mxPoint x="350" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="20" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-17" value="Solicitar&lt;br&gt;&amp;nbsp;tela &lt;br&gt;de duvidas()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.1;entryY=0.219;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0136" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="53" y="220" as="sourcePoint" />
+            <mxPoint x="128" y="219" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="220" />
+              <mxPoint x="100" y="220" />
+              <mxPoint x="110" y="220" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-19" value="Selecionar&lt;br&gt;&amp;nbsp;tela &lt;br&gt;de duvidas()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry y="8" width="80" relative="1" as="geometry">
+            <mxPoint x="150" y="228" as="sourcePoint" />
+            <mxPoint x="230" y="228" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-21" value="Exibir&lt;br&gt;&amp;nbsp;tela &lt;br&gt;de duvidas()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="240" as="sourcePoint" />
+            <mxPoint x="340" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="20" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.557;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="SjVy-5ffpDYby1XpSnQS-22" target="SjVy-5ffpDYby1XpSnQS-24" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="130" as="sourcePoint" />
+            <mxPoint x="450" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-24" value="Chat" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="10" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="20" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.557;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="SjVy-5ffpDYby1XpSnQS-28" target="SjVy-5ffpDYby1XpSnQS-30" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="130" as="sourcePoint" />
+            <mxPoint x="570" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-30" value="Plataforma de&amp;nbsp;&lt;div&gt;Professores&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="10" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-32" value="[Professor Online]&lt;div&gt;Mensagem do&lt;/div&gt;&lt;div&gt;professor&lt;/div&gt;&lt;div&gt;para tirar duvida ()&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="550" y="300" as="sourcePoint" />
+            <mxPoint x="470" y="300" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="30" width="80" relative="1" as="geometry">
+            <mxPoint x="550" y="290" as="sourcePoint" />
+            <mxPoint x="470" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-34" value="[Professor Online]&lt;div&gt;Mensagem de&amp;nbsp;&lt;/div&gt;&lt;div&gt;que não há&amp;nbsp;&lt;/div&gt;&lt;div&gt;professor no&amp;nbsp;&lt;/div&gt;&lt;div&gt;momento&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="-20" width="80" relative="1" as="geometry">
+            <mxPoint x="550" y="400" as="sourcePoint" />
+            <mxPoint x="470" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-35" value="Enviar Duvida()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjVy-5ffpDYby1XpSnQS-36" value="Digitar&amp;nbsp;&lt;div&gt;Duvida()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1.002;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SjVy-5ffpDYby1XpSnQS-16">
+          <mxGeometry x="-0.4998" width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="250" as="sourcePoint" />
+            <mxPoint x="370" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="410" y="250" />
+              <mxPoint x="410" y="270" />
+              <mxPoint x="390" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
